@@ -1,12 +1,18 @@
 {
   "jsc": {
     "parser": {
-      "syntax": "typescript"
+      "syntax": "typescript",
+      "tsx": true
     },
     "target": "es2021"
   },
   "module": {
     "type": "commonjs"
+  },
+  "transform": {
+    "react": {
+      "runtime": "automatic"
+    }
   },
   "sourceMaps": true
 }

@@ -10,7 +10,10 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:storybook/recommended",
+    "plugin:jsx-a11y/recommended"
   ],
   "rules": {}
 }
