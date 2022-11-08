@@ -7,19 +7,22 @@
   "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxgfr/typescript-swc-starter.git"
+    "url": "https://github.com/maxgfr/typescript-react-lib-swc.git"
   },
   "bugs": {
-    "url": "https://github.com/maxgfr/typescript-swc-starter/issues"
+    "url": "https://github.com/maxgfr/typescript-react-lib-swc/issues"
   },
-  "homepage": "https://github.com/maxgfr/typescript-swc-starter#readme",
+  "homepage": "https://github.com/maxgfr/typescript-react-lib-swc#readme",
   "files": [
     "build"
   ],
   "keywords": [
     "boilerplate",
     "typescript",
-    "swc"
+    "swc",
+    "react",
+    "storybook",
+    "@testing-library"
   ],
   "scripts": {
     "dev": "nodemon",
