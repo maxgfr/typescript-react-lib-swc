@@ -36,8 +36,8 @@
     "prettier": "prettier --write './src/**/*.{ts,js,json}'",
     "storybook:start": "start-storybook -p 6006",
     "storybook:build": "build-storybook",
-    "storybook:deploy": "npm run storybook:build && gh-pages -d .out",
-    "storybook:deploy:action": "npm run storybook:build && gh-pages -d .out -u \"github-actions-bot <support+actions@github.com>\""
+    "storybook:deploy": "npm run storybook:build && gh-pages -d storybook-static",
+    "storybook:deploy:action": "npm run storybook:build && gh-pages -d storybook-static -u \"github-actions-bot <support+actions@github.com>\""
   },
   "dependencies": {
     "react": "^18.2.0",
