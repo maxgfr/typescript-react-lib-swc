@@ -12,3 +12,5 @@ jobs:
         run: yarn
       - name: Build
         run: yarn build
+      - name: Build storybook
+        run: yarn storybook:build

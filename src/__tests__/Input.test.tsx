@@ -10,10 +10,11 @@ describe('<Input />', () => {
 
   test('Input writing', () => {
     render(<Input />);
-
-    userEvent.type(screen.getByTestId('input'), 'résultat');
-    expect(screen.getAllByTestId('input-result')).toBe(
-      'Input result : résultat!',
-    );
+    const input = screen.getByLabelText(/enter a value/i);
+    userEvent.type(input, 'résultat');
+    console.log(input);
+    expect(input).toHaveValue('résultat');
+    const result = screen.getByTestId('input-result');
+    expect(result).toBe('Input result : résultat!');
   });
 });
