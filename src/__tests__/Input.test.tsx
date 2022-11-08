@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { Input } from '../Input';
 
@@ -11,10 +11,9 @@ describe('<Input />', () => {
   test('Input writing', () => {
     render(<Input />);
     const input = screen.getByLabelText(/enter a value/i);
-    userEvent.type(input, 'résultat');
-    console.log(input);
+    fireEvent.change(input, { target: { value: 'résultat' } });
     expect(input).toHaveValue('résultat');
     const result = screen.getByTestId('input-result');
-    expect(result).toBe('Input result : résultat!');
+    expect(result).toHaveTextContent('Input result : résultat!');
   });
 });

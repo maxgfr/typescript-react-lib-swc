@@ -22,7 +22,6 @@
     "swc"
   ],
   "scripts": {
-    "start": "node build/index.js",
     "dev": "nodemon",
     "develop": "node -r @swc-node/register ./src/index.ts",
     "test": "jest",
@@ -32,8 +31,8 @@
     "build:watch": "tsc -w -p tsconfig.build.json",
     "build:swc": "swc ./src -d build",
     "build:swc:watch": "swc ./src -d build -w",
-    "lint": "eslint ./src --ext .ts",
-    "prettier": "prettier --write './src/**/*.{ts,js,json}'",
+    "lint": "eslint ./src --ext .ts,.tsx",
+    "prettier": "prettier --write './src/**/*.{ts,js,json,tsx,jsx}'",
     "storybook:start": "start-storybook -p 6006",
     "storybook:build": "build-storybook",
     "storybook:deploy": "npm run storybook:build && gh-pages -d storybook-static",

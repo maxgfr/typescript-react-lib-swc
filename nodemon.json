@@ -1,6 +1,6 @@
 {
   "watch": ["src"],
-  "ext": "ts,json",
+  "ext": "ts,json,tsx,js,jsx",
   "ignore": ["src/**/*.spec.{ts,tsx}", "src/**/*.test.{tsx,ts}"],
   "exec": "yarn develop"
 }
