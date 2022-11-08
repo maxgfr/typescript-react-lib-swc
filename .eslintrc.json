@@ -15,5 +15,8 @@
     "plugin:storybook/recommended",
     "plugin:jsx-a11y/recommended"
   ],
-  "rules": {}
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  }
 }

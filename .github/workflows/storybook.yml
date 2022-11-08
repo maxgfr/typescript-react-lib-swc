@@ -4,10 +4,6 @@ on:
   push:
     branches: [main]
 
-concurrency:
-  cancel-in-progress: true
-  group: storybook-${{ github.ref }}
-
 jobs:
   storybook:
     name: Deployment storybook on gh-pages
