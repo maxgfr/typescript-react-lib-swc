@@ -2,7 +2,10 @@
 
 A simple react boilerplate for creating a library of components made in typescript using `swc`.
 
-It also uses `storybook`, `testing-library` and `semantic-release` for publishing a package.
+It also uses:
+- `storybook` for viewing a components
+- `testing-library` for testing components
+- `semantic-release` for publishing a package for this library components
 
 ## Clone repository and install dependencies
 
