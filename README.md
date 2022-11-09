@@ -1,6 +1,8 @@
 # typescript-react-lib-swc
 
-A simple react boilerplate made in typescript using swc.
+A simple react boilerplate for creating a library of components made in typescript using `swc`.
+
+It also uses `storybook`, `testing-library` and `semantic-release` for publishing a package.
 
 ## Clone repository and install dependencies
 
