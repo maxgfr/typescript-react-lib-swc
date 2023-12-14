@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 maxgfr/typescript-react-lib-swc is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [React](https://reactjs.org/) – Javascript UI Libraries
@@ -16,11 +17,13 @@ maxgfr/typescript-react-lib-swc is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 maxgfr/typescript-react-lib-swc is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
@@ -35,14 +38,15 @@ maxgfr/typescript-react-lib-swc is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [maxgfr/typescript-react-lib-swc](https://github.com/maxgfr/typescript-react-lib-swc)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|42<br/>Tools used|11/10/23 <br/>Report generated|
+|42<br/>Tools used|12/14/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -195,7 +199,7 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[@babel/core](https://www.npmjs.com/@babel/core)|v7.12.9|11/05/23|renovate[bot] |MIT|N/A|
+|[@babel/core](https://www.npmjs.com/@babel/core)|v7.12.9|11/30/23|renovate[bot] |MIT|N/A|
 |[@semantic-release/changelog](https://www.npmjs.com/@semantic-release/changelog)|v6.0.3|12/04/22|maxgfr |MIT|N/A|
 |[@semantic-release/commit-analyzer](https://www.npmjs.com/@semantic-release/commit-analyzer)|v9.0.2|12/04/22|maxgfr |MIT|N/A|
 |[@semantic-release/git](https://www.npmjs.com/@semantic-release/git)|v10.0.1|12/04/22|maxgfr |MIT|N/A|
@@ -205,25 +209,25 @@ Full tech stack [here](/techstack.md)
 |[@storybook/addon-actions](https://www.npmjs.com/@storybook/addon-actions)|v6.5.16|10/30/23|renovate[bot] |MIT|N/A|
 |[@storybook/addon-links](https://www.npmjs.com/@storybook/addon-links)|v6.5.16|10/30/23|renovate[bot] |MIT|N/A|
 |[@storybook/react](https://www.npmjs.com/@storybook/react)|v6.5.16|10/30/23|renovate[bot] |MIT|N/A|
-|[@testing-library/jest-dom](https://www.npmjs.com/@testing-library/jest-dom)|v5.17.0|11/07/23|renovate[bot] |MIT|N/A|
+|[@testing-library/jest-dom](https://www.npmjs.com/@testing-library/jest-dom)|v5.17.0|12/06/23|renovate[bot] |MIT|N/A|
 |[@testing-library/react](https://www.npmjs.com/@testing-library/react)|v13.4.0|10/30/23|renovate[bot] |MIT|N/A|
-|[@types/jest](https://www.npmjs.com/@types/jest)|v29.5.6|11/07/23|renovate[bot] |MIT|N/A|
-|[@types/node](https://www.npmjs.com/@types/node)|v20.8.9|11/07/23|renovate[bot] |MIT|N/A|
-|[@types/react](https://www.npmjs.com/@types/react)|v18.2.37|11/07/23|renovate[bot] |MIT|N/A|
-|[@types/react-dom](https://www.npmjs.com/@types/react-dom)|v18.2.15|11/07/23|renovate[bot] |MIT|N/A|
-|[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v5.62.0|11/07/23|renovate[bot] |MIT|N/A|
-|[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v5.62.0|11/07/23|renovate[bot] |BSD-2-Clause|N/A|
+|[@types/jest](https://www.npmjs.com/@types/jest)|v29.5.6|12/07/23|renovate[bot] |MIT|N/A|
+|[@types/node](https://www.npmjs.com/@types/node)|v20.8.9|12/07/23|renovate[bot] |MIT|N/A|
+|[@types/react](https://www.npmjs.com/@types/react)|v18.2.45|12/07/23|renovate[bot] |MIT|N/A|
+|[@types/react-dom](https://www.npmjs.com/@types/react-dom)|v18.2.17|12/07/23|renovate[bot] |MIT|N/A|
+|[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v5.62.0|12/07/23|renovate[bot] |MIT|N/A|
+|[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v5.62.0|12/07/23|renovate[bot] |BSD-2-Clause|N/A|
 |[babel-loader](https://www.npmjs.com/babel-loader)|v8.3.0|11/08/22|renovate[bot] |MIT|N/A|
-|[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v8.10.0|11/04/23|renovate[bot] |MIT|N/A|
-|[eslint-plugin-jest](https://www.npmjs.com/eslint-plugin-jest)|v27.6.0|11/07/23|renovate[bot] |MIT|N/A|
-|[eslint-plugin-jsx-a11y](https://www.npmjs.com/eslint-plugin-jsx-a11y)|v6.8.0|11/04/23|renovate[bot] |MIT|N/A|
-|[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.33.2|11/04/23|renovate[bot] |MIT|N/A|
+|[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v8.10.0|12/02/23|renovate[bot] |MIT|N/A|
+|[eslint-plugin-jest](https://www.npmjs.com/eslint-plugin-jest)|v27.6.0|12/06/23|renovate[bot] |MIT|N/A|
+|[eslint-plugin-jsx-a11y](https://www.npmjs.com/eslint-plugin-jsx-a11y)|v6.8.0|12/02/23|renovate[bot] |MIT|N/A|
+|[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.33.2|12/02/23|renovate[bot] |MIT|N/A|
 |[gh-pages](https://www.npmjs.com/gh-pages)|v4.0.0|11/08/22|maxgfr |MIT|N/A|
-|[jest-environment-jsdom](https://www.npmjs.com/jest-environment-jsdom)|v29.7.0|11/07/23|renovate[bot] |MIT|N/A|
+|[jest-environment-jsdom](https://www.npmjs.com/jest-environment-jsdom)|v29.7.0|12/06/23|renovate[bot] |MIT|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|12/04/22|maxgfr |MIT|N/A|
 |[rimraf](https://www.npmjs.com/rimraf)|v3.0.2|11/08/22|Maxime Golfier |ISC|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
