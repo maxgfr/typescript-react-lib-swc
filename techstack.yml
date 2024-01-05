@@ -1,11 +1,12 @@
 repo_name: maxgfr/typescript-react-lib-swc
-report_id: 9ea96f4e05e190c5d029db8ec0798948
+report_id: e9a9b2f8c56eaa9abb69d01647bc33ef
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T10:16:44+00:00'
+timestamp: '2024-01-05T08:56:59+00:00'
 requested_by: renovate[bot]
 provider: github
 branch: main
-detected_tools_count: 42
+detected_tools_count: 43
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc
   detection_source: Repo Metadata
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc/blob/main/package.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2022-11-08 13:42:42.000000000 Z
@@ -90,6 +94,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc/blob/main/package.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2022-11-08 13:42:42.000000000 Z
@@ -101,6 +106,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -110,6 +116,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc/blob/main/.github/workflows/build.yml
   detection_source: ".github/workflows/build.yml"
   last_updated_by: Maxime Golfier
   last_updated_on: 2022-11-08 13:42:42.000000000 Z
@@ -149,6 +156,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc/blob/main/yarn.lock
   detection_source: yarn.lock
   last_updated_by: Maxime Golfier
   last_updated_on: 2022-11-08 13:42:42.000000000 Z
@@ -174,6 +182,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc/blob/main/package.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2022-11-08 13:42:42.000000000 Z
@@ -183,6 +192,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc/blob/main/package.json
   detection_source: package.json
   last_updated_by: maxgfr
   last_updated_on: 2022-12-04 13:28:18.000000000 Z
@@ -568,3 +578,17 @@ tools:
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2022-11-08 13:42:42.000000000 Z
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 19.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/maxgfr/typescript-react-lib-swc/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: maxgfr
+  last_updated_on: 2022-12-04 13:28:18.000000000 Z
