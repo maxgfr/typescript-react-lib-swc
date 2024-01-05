@@ -46,7 +46,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [maxgfr/typescript-react-lib-swc](https://github.com/maxgfr/typescript-react-lib-swc)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|42<br/>Tools used|12/14/23 <br/>Report generated|
+|43<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -193,9 +193,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (27)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (28)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (27)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (28)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -226,6 +226,7 @@ Full tech stack [here](/techstack.md)
 |[jest-environment-jsdom](https://www.npmjs.com/jest-environment-jsdom)|v29.7.0|12/06/23|renovate[bot] |MIT|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|12/04/22|maxgfr |MIT|N/A|
 |[rimraf](https://www.npmjs.com/rimraf)|v3.0.2|11/08/22|Maxime Golfier |ISC|N/A|
+|[semantic-release](https://www.npmjs.com/semantic-release)|v19.0.5|12/04/22|maxgfr |MIT|N/A|
 
 <br/>
 <div align='center'>
