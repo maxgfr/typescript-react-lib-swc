@@ -1679,12 +1679,12 @@
     slash "^3.0.0"
     strip-ansi "^6.0.0"
 
-"@jest/create-cache-key-function@^27.4.2":
-  version "27.5.1"
-  resolved "https://registry.yarnpkg.com/@jest/create-cache-key-function/-/create-cache-key-function-27.5.1.tgz#7448fae15602ea95c828f5eceed35c202a820b31"
-  integrity sha512-dmH1yW+makpTSURTy8VzdUwFnfQh1G8R+DxO2Ho2FFmBbKFEVm+3jWdvFhE2VqB/LATCTokkP0dotjyQyw5/AQ==
+"@jest/create-cache-key-function@^29.7.0":
+  version "29.7.0"
+  resolved "https://registry.yarnpkg.com/@jest/create-cache-key-function/-/create-cache-key-function-29.7.0.tgz#793be38148fab78e65f40ae30c36785f4ad859f0"
+  integrity sha512-4QqS3LY5PBmTRHj9sAg1HLoPzqAI0uOX6wI/TRqHIcOxlFidy6YEmCQJk6FSZjNLGCeubDMfmkWL+qaLKhSGQA==
   dependencies:
-    "@jest/types" "^27.5.1"
+    "@jest/types" "^29.6.3"
 
 "@jest/environment@^29.7.0":
   version "29.7.0"
@@ -3416,18 +3416,18 @@
   resolved "https://registry.yarnpkg.com/@swc/counter/-/counter-0.1.2.tgz#bf06d0770e47c6f1102270b744e17b934586985e"
   integrity sha512-9F4ys4C74eSTEUNndnER3VJ15oru2NumfQxS8geE+f3eB5xvfxpWyqE5XlVnxb/R14uoXi6SLbBwwiDSkv+XEw==
 
-"@swc/jest@0.2.29":
-  version "0.2.29"
-  resolved "https://registry.yarnpkg.com/@swc/jest/-/jest-0.2.29.tgz#b27d647ec430c909f9bb567d1df2a47eaa3841f4"
-  integrity sha512-8reh5RvHBsSikDC3WGCd5ZTd2BXKkyOdK7QwynrCH58jk2cQFhhHhFBg/jvnWZehUQe/EoOImLENc9/DwbBFow==
+"@swc/jest@0.2.30":
+  version "0.2.30"
+  resolved "https://registry.yarnpkg.com/@swc/jest/-/jest-0.2.30.tgz#ad561bf90d1090ec0b71d54878f85a82d3af781f"
+  integrity sha512-80KKC6GYvgrpX1/7yKsRbu88V6OAJIcMGzOLCt0pPSg1nEwJg/lLAodVy2hCD8OcYApmY5gSwD4SnwgA5Y7Q7A==
   dependencies:
-    "@jest/create-cache-key-function" "^27.4.2"
+    "@jest/create-cache-key-function" "^29.7.0"
     jsonc-parser "^3.2.0"
 
 "@swc/plugin-styled-jsx@^1.5.20":
-  version "1.5.108"
-  resolved "https://registry.yarnpkg.com/@swc/plugin-styled-jsx/-/plugin-styled-jsx-1.5.108.tgz#d95742cd38cb7dfa62bc60818d10a3bd15c24e58"
-  integrity sha512-BnYfvBOu66EPgXx7We8o7aJP1qcA70shKwCO7PfGYEnJ75Os4kJXRapkNx+qVLfrIXXPr3RvbiJUWluOQcW0xQ==
+  version "1.5.110"
+  resolved "https://registry.yarnpkg.com/@swc/plugin-styled-jsx/-/plugin-styled-jsx-1.5.110.tgz#95b94a983b2b9ad9bbb639c52cb0d62eadff6d6a"
+  integrity sha512-0+HWNAYLjKATCIVY2c7dWB+V4EGgUfMVOf3g6U0jUbCx0g6IZl/nsRKtEHsBD2KH3AfpZ3ts52tcnxeeoLUyYA==
 
 "@swc/types@^0.1.5":
   version "0.1.5"
