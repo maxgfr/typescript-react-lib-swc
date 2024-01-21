@@ -3330,14 +3330,15 @@
     source-map-support "^0.5.21"
     tslib "^2.5.0"
 
-"@swc/cli@0.1.63":
-  version "0.1.63"
-  resolved "https://registry.yarnpkg.com/@swc/cli/-/cli-0.1.63.tgz#b4ab850f8c285d06d593428b14ffa3df782adcbb"
-  integrity sha512-EM9oxxHzmmsprYRbGqsS2M4M/Gr5Gkcl0ROYYIdlUyTkhOiX822EQiRCpPCwdutdnzH2GyaTN7wc6i0Y+CKd3A==
+"@swc/cli@0.1.64":
+  version "0.1.64"
+  resolved "https://registry.yarnpkg.com/@swc/cli/-/cli-0.1.64.tgz#5bee363c1ec6c9f91be343044997d99174e1bfdb"
+  integrity sha512-k0le1bh/7xCoutC9JH4ONd+NQnyYxFbMprPjz6xihwaOkdLdcSfUCmv20U4nRRjQRk89bOVhq6m/BehogEPeAA==
   dependencies:
     "@mole-inc/bin-wrapper" "^8.0.1"
     commander "^7.1.0"
     fast-glob "^3.2.5"
+    minimatch "^9.0.3"
     semver "^7.3.8"
     slash "3.0.0"
     source-map "^0.7.3"
@@ -3425,9 +3426,9 @@
     jsonc-parser "^3.2.0"
 
 "@swc/plugin-styled-jsx@^1.5.20":
-  version "1.5.113"
-  resolved "https://registry.yarnpkg.com/@swc/plugin-styled-jsx/-/plugin-styled-jsx-1.5.113.tgz#0ebabfab9f422813b6e683492733e66767cf6737"
-  integrity sha512-Tx0rPiZN4CSdCxEtM+oLVoPqBNgtNDmA0GtxNqUK+yyvARgMrMZHZn2v1CH2ht6/x3AglnPIXwRB+Bo2M3ni+A==
+  version "1.5.114"
+  resolved "https://registry.yarnpkg.com/@swc/plugin-styled-jsx/-/plugin-styled-jsx-1.5.114.tgz#2b61207f1699930752784647ecf51ea1364b14ff"
+  integrity sha512-CpSyYcEl8kHbuxN946Rdl+JVr78BwPE3zGH62wicsZRME69OIoJxVRBakR+9JaUSI6Yh7RU3LEkaDhHIjR0Dcg==
 
 "@swc/types@^0.1.5":
   version "0.1.5"
@@ -10780,6 +10781,13 @@ minimatch@^5.0.1, minimatch@^5.1.0:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.6.tgz#1cfcb8cf5522ea69952cd2af95ae09477f122a96"
   integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
+  dependencies:
+    brace-expansion "^2.0.1"
+
+minimatch@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.3.tgz#a6e00c3de44c3a542bfaae70abfc22420a6da825"
+  integrity sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==
   dependencies:
     brace-expansion "^2.0.1"
 
