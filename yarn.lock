@@ -3591,9 +3591,9 @@
     jsonc-parser "^3.2.0"
 
 "@swc/plugin-styled-jsx@^1.5.20":
-  version "1.5.124"
-  resolved "https://registry.yarnpkg.com/@swc/plugin-styled-jsx/-/plugin-styled-jsx-1.5.124.tgz#9c456411952625216abcdf58757bb6711aab3a23"
-  integrity sha512-q5e3lm54LOvYmg/lz+0sp/1B3W/JJkU1v8wwMSD3B790eT2HjDerZ6bCEJZEYtuSSikZYUWGGi5pMiDIftb0tQ==
+  version "1.5.125"
+  resolved "https://registry.yarnpkg.com/@swc/plugin-styled-jsx/-/plugin-styled-jsx-1.5.125.tgz#4f04d9e2ecb74c05a08bf2569aa92c82fe93a3fa"
+  integrity sha512-d5U7ZPE0ZQA2tO8n/HYoi5OzGgQBCAgPrHEn5iU5KfYFTVPrBy0byQPqddkvfRtSS1QzE4gTTkVkdIuBPqjcnQ==
   dependencies:
     "@swc/counter" "^0.1.3"
 
