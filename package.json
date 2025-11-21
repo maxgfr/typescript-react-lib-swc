@@ -64,7 +64,7 @@
     "@storybook/testing-library": "^0.2.0",
     "@swc-node/register": "1.11.1",
     "@swc/cli": "0.7.9",
-    "@swc/core": "1.15.2",
+    "@swc/core": "1.15.3",
     "@swc/jest": "0.2.39",
     "@swc/plugin-styled-jsx": "^1.5.20",
     "@testing-library/jest-dom": "^5.16.5",
