@@ -1,6 +1,6 @@
 {
   "name": "typescript-react-lib-swc",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "maxgfr",
   "license": "MIT",
   "description": "A minimalist typescript swc starter for react",
