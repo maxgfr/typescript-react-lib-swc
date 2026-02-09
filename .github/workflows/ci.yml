@@ -1,37 +1,44 @@
-name: Publish package to npm
+name: CI
 
 on:
-  workflow_dispatch:
   push:
-    branches: ['main']
-
-permissions:
-  contents: write
-  issues: write
-  pull-requests: write
-  id-token: write
+    branches: ['**']
+  pull_request:
+    branches: ['**']
 
 jobs:
-  publish:
+  ci:
+    name: Continuous Integration
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 10
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: 'pnpm'
-          registry-url: 'https://registry.npmjs.org/'
-      - name: Install
+
+      - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Build
+
+      - name: Type check
         run: pnpm run build
-      - name: Release
-        run: pnpm run release
+
+      - name: Lint
+        run: pnpm run lint
+
+      - name: Test
+        run: pnpm test
+
+      - name: Build SWC
+        run: pnpm run build:swc
+
+      - name: Build Storybook
+        run: pnpm run storybook:build

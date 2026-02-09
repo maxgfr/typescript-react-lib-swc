@@ -12,14 +12,14 @@ It also uses:
 ```sh
 git clone https://github.com/maxgfr/typescript-react-lib-swc # For cloning the repository
 cd typescript-react-lib-swc # To navigate to the repository root
-yarn # Install dependencies
+pnpm install # Install dependencies
 ```
 
 ## Building the code
 
 ```sh
-yarn build # For building the code with typechecking
-yarn build:swc # For building without typechecking
+pnpm run build # For building the code with typechecking
+pnpm run build:swc # For building without typechecking
 ```
 
 > **:warning: No typechecking made in dev mode**
@@ -27,6 +27,6 @@ yarn build:swc # For building without typechecking
 ## Testing the code
 
 ```sh
-yarn test # For running unit test
-yarn test:watch # For watching unit test
+pnpm test # For running unit test
+pnpm test:watch # For watching unit test
 ```
