@@ -1,0 +1,5 @@
+# Read by every pnpm version, unlike the "pnpm" field of package.json, which
+# newer releases (and so Dependabot) ignore: the lockfile must keep the same
+# overrides whichever pnpm writes it.
+overrides:
+  uuid@<11.1.1: ^11.1.1
